@@ -7,12 +7,17 @@ this is a website based vue
 
 ## 技术
 
-vue 2.5.2 
-axios 0.18.0
-babel-polify 6.26.0
-element-ui  2.3.4
-webpack 3.6.0
-...
+  vue 2.5.2 
+  
+  axios 0.18.0
+
+  babel-polify 6.26.0
+  
+  element-ui  2.3.4
+
+  webpack 3.6.0
+  
+  ...
 
 
 
