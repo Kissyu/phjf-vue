@@ -1,0 +1,110 @@
+/*全局样式*/
+.el-message-box {
+    width: 100%;
+    margin-top: 40%;
+}
+#policyOtherFilterBox .el-input__inner {
+    border: 0;
+}
+#policyOtherFilterBox .el-cascader__label {
+    color:#2F4DF9 !important;
+}
+.el-checkbox__inner{
+    border-radius: 50%;
+}
+.el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+    background-color: #2F4DF9;
+    border-color: #2F4DF9;
+}
+.el-checkbox__input.is-checked+.el-checkbox__label{
+    color: #2F4DF9;
+}
+.mask .el-checkbox__input.is-checked+.el-checkbox__label{
+    color: #206FF2;
+}
+#policyCityFilterBox input{
+    border:none;
+}
+.el-icon-arrow-up:before{
+    content:"\E60C";
+}
+/*#policyCityFilterBox .el-input__prefix, .el-input__suffix {*/
+    /*top: 1.25rem;*/
+    /*left: 2rem!important;*/
+/*}*/
+#policyOtherFilterBox .el-input--suffix .el-input__inner{
+    padding-right: 0;
+    font-size: 0.75rem;
+}
+#policyOtherFilterBox .el-input__inner{
+    padding-left:0.15rem;
+}
+#policyOtherFilterBox .el-input__suffix{
+    position: absolute;
+    top:0;
+    right:0;
+}
+#policyOtherFilterBox .el-input__inner::-webkit-input-placeholder{
+    color:#333;
+}
+#policyOtherFilterBox .el-input__inner::-moz-placeholder{
+    color:#333;
+}
+#policyOtherFilterBox .el-input__inner:-moz-placeholder{
+    color:#333;
+}
+#policyOtherFilterBox .el-input__inner:-ms-input-placeholder{
+    color:#333;
+}
+.cityFilter .el-input__inner{
+    padding:0;
+    padding-right: 15px;
+}
+.cityOption,.searchOthercascader{
+  top:3.6rem !important;
+  left:0!important;
+  bottom:0;
+  right:0;
+    width:100%!important;
+}
+.cityOption{
+  top:2.6rem !important;
+}
+#policyFilterBox .el-input__inner{background-color: #fafafa;}
+.cityOption,.searchOthercascader{
+  border:none;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: rgba(0,0,0,0.3);
+}
+.cityOption .el-scrollbar__wrap{
+  background-color: #fff;
+}
+.cityOption[x-placement^=bottom] .popper__arrow{
+  display: none;
+}
+.cityOption .el-select-dropdown__item.hover,.cityOption  .el-select-dropdown__item:hover{
+  background-color: #fff;
+}
+.searchOthercascader .el-cascader-menu{
+    min-width:85px;
+}
+.el-cascader-menus li {
+    width: 100% !important;
+    padding-left:0 !important;
+    text-align: center !important;
+}
+.el-cascader-menu__item--extensible:after {
+    right:5px;
+}
+.searchOthercascader{
+    /*width: 100% !important;*/
+    top:5.3rem !important;
+}
+.searchOthercascader .el-cascader-menu__item.is-active {
+    color:#2F4DF9;
+}
+.searchOthercascader.el-popper[x-placement^=bottom] .popper__arrow{display: none!important;}
+.searchOthercascader.el-popper[x-placement^=bottom]{top:0;margin-top: 0;}
+.searchOthercascader.el-cascader-menus{margin:0;}
+.cityFilter .el-select .el-input .el-select__caret{color:#333333;}
